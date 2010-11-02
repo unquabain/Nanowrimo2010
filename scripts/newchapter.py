@@ -6,7 +6,7 @@ import subprocess
 import git
 
 def shell_exec(command):
-	subprocess.Popen(command,shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr)
+	return subprocess.Popen(command,shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr)
 
 todayfolder = datetime.now().date().isoformat()
 
@@ -25,6 +25,8 @@ shell_exec("git add %s"%filename)
 
 editor = os.environ.get('VISUAL', os.environ.get('EDITOR', None))
 if editor:
-	os.execl(editor, os.path.basename(editor), filename)
+	shell_exec("%s %s"%(editor, os.path.basename(editor)).wait()
+else:
+	shell_exec('/usr/bin/env vi %s'%filename).wait()
 
-os.execl('/usr/bin/env', 'env', 'vi', filename)
+shell_exec("make commit").wait()
