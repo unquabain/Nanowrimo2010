@@ -54,13 +54,13 @@ found=False
 for i in range(0,len(lines)):
 	if "Latest wordcount:" in lines[i]:
 		found = i
-wcline = "Latest wordcount: %s"%sum
+wcline = "Latest wordcount: %s %s"%(sum, datetime.now().isoformat())
 if i:
 	lines[i] = wcline
 else:
 	lines.append("")
 	lines.append(wcline)
 with open('README.markdown','w') as md:
-	md.write("\n".join(lines))
+	md.write("".join(lines))
 
 subprocess.Popen('git add README.markdown',shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr).wait()
