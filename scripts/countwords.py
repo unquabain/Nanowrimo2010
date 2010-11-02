@@ -4,6 +4,7 @@ import sys, os
 from markdown import markdown
 import re
 from datetime import datetime, date, timedelta
+import subprocess
 
 def td_total_seconds(td):
 	return (td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 10**6
@@ -44,3 +45,21 @@ for path, dirs, files in os.walk(os.getcwd()):
 		sum += numwords
 print "total\t\t%d"%sum
 print "You are %02.2f%% of where you need to be."%(100.0 * (float(sum)/target))
+
+with open('README.markdown','r') as md:
+	lines = md.readlines()
+
+found=False
+for i in range(0,len(lines)):
+	if "Latest wordcount:" in lines[i]:
+		found = i
+wcline = "Latest wordcount: %s"%sum
+if i:
+	lines[i] = wcline
+else:
+	lines.append("")
+	lines.append(wcline)
+with open('README.markdown','w') as md:
+	md.write("\n".join(lines))
+
+subprocess.Popen('git add README.markdown',shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr).wait()
