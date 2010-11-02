@@ -5,6 +5,7 @@ from markdown import markdown
 import re
 from datetime import datetime, date, timedelta
 import subprocess
+from codecs import open
 
 def td_total_seconds(td):
 	return (td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 10**6
@@ -36,7 +37,7 @@ for path, dirs, files in os.walk(os.getcwd()):
 	if not re.search('/2010-11-\d\d$',path): continue
 	for f in files:
 		fpath = os.path.join(path,f)
-		with open(fpath,'r') as ff:
+		with open(fpath,'r',encoding="utf-8") as ff:
 			md = ff.read()
 		ht = markdown(md)
 		s = Soup(ht)
