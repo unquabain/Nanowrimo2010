@@ -1,4 +1,4 @@
-commit: .DOITANYWAY
+commit: .DOITANYWAY count
 	git commit -a 
 	git push origin master
 

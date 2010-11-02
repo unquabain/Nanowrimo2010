@@ -1,4 +1,5 @@
 # Chapter 2010-11-01 - 2
+## Sheriff Cold Finds a Body
 
 Sheriff Cold found the body of the girl lying in the road
 in front of the Colonel's house.  He pursed his lips so his
