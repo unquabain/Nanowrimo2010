@@ -23,7 +23,7 @@ f.close()
 
 editor = os.environ.get('VISUAL', os.environ.get('EDITOR', None))
 if editor:
-	shell_exec("%s %s"%(editor, os.path.basename(editor)).wait()
+	shell_exec("%s %s"%(editor, os.path.basename(editor))).wait()
 else:
 	shell_exec('/usr/bin/env vi %s'%filename).wait()
 
