@@ -9,6 +9,12 @@ from codecs import open
 
 def td_total_seconds(td):
 	return (td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 10**6
+def td_set_total_seconds(secs):
+	ms = secs * 10**6
+	secs = int(secs)
+	days = int(secs/24*3600)
+	secs = secs % (24*3600)
+	return timedelta(days, secs, ms)
 
 dstart = datetime(2010,11,1)
 dend   = datetime(2010,12,1)
@@ -46,6 +52,11 @@ for path, dirs, files in os.walk(os.getcwd()):
 		sum += numwords
 print "total\t\t%d"%sum
 print "You are %02.2f%% of where you need to be."%(100.0 * (float(sum)/target))
+#if sum > target:
+#	dt = sum / rate
+#	writeby= dstart + dt
+#	print "You will be behind if you don't write by %s"%(writeby.isoformat())
+
 
 with open('README.markdown','r') as md:
 	lines = md.readlines()
