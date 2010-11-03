@@ -15,5 +15,4 @@ Read these in order.
 
 Alternatively, you can use the **Downloads** link above to download a compressed archive of the
 whole source.  In the source, you'll see a `published` directory with rendered HTML files.
-Start with the one called `2010-11-01.01.html` and follow the links.  It doesn't really matter,
-Latest wordcount: 3159 (97.98% @ 2010-11-02T22:25:37.149927)
+Latest wordcount: 3563 (109.59% @ 2010-11-02T22:49:03.921042)
