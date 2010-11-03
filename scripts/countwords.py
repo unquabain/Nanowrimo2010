@@ -51,7 +51,8 @@ for path, dirs, files in os.walk(os.getcwd()):
 		print "%s\t%s\t%s"%(os.path.basename(path) , f , numwords)
 		sum += numwords
 print "total\t\t%d"%sum
-print "You are %02.2f%% of where you need to be."%(100.0 * (float(sum)/target))
+percent = (100.0 * (float(sum)/target))
+print "You are %02.2f%% of where you need to be."%percent
 #if sum > target:
 #	dt = sum / rate
 #	writeby= dstart + dt
@@ -65,7 +66,7 @@ found=False
 for i in range(0,len(lines)):
 	if "Latest wordcount:" in lines[i]:
 		found = i
-wcline = "Latest wordcount: %s %s"%(sum, datetime.now().isoformat())
+wcline = "Latest wordcount: %s (%s%% @ %s)"%(sum, percent, datetime.now().isoformat())
 if i:
 	lines[i] = wcline
 else:

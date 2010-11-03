@@ -1,4 +1,4 @@
-commit: .DOITANYWAY count
+commit: .DOITANYWAY count publish
 	git commit -a 
 	git push origin master
 
@@ -7,5 +7,8 @@ new: .DOITANYWAY
 
 count: .DOITANYWAY
 	python scripts/countwords.py
+
+publish: .DOITANYWAY
+	python scripts/publish.py
 
 .DOITANYWAY:
