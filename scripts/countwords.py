@@ -66,9 +66,9 @@ found=False
 for i in range(0,len(lines)):
 	if "Latest wordcount:" in lines[i]:
 		found = i
-wcline = "Latest wordcount: %s (%02.2f%% @ %s)"%(sum, percent, datetime.now().isoformat())
-if i:
-	lines[i] = wcline
+wcline = "Latest wordcount: %s (%02.2f%% @ %s)\n"%(sum, percent, datetime.now().isoformat())
+if found:
+	lines[found] = wcline
 else:
 	lines.append("")
 	lines.append(wcline)
