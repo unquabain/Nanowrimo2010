@@ -1,0 +1,112 @@
+# Chapter 2010-11-03 - 2
+
+Jovius was almost asleep when something struck him in the rib cage. The
+caretaker had found him! Time to run. He bolted up, but a strong hand
+slapped him on the shoulder and pushed him back down to the ground. The
+owner of the hand slid down next to him, nearly on top of him.
+
+Jovius was caught. He stared straight ahead, waiting. After a few
+moments, the body next to him, the strong arm on his shoulder, when
+nothing was said, Jovius looked at the man. It was the father from the
+child's funeral. The man also staired straight ahead at the little pond
+some yards away.
+
+It was almost dark. The caretaker would be making his rounds soon.
+Jovius began to feel panic. There wasn't much time, certainly no time to
+be confused.
+
+“Can I help you with something?” asked Jovius.
+
+“You have booze,” said the man. He had an accent. Jovius wasn't good
+with accents.
+
+“No, I... No.”
+
+“Give me some,” said the man. Jovius was thinking of a way to deny
+it when the man looked him in the eyes. Those dead eyes. They sucked
+at Jovius. Without a further thought, Jovius pulled out the half-empty
+bottle of cheap rum in his bag and handed it to the father. The man took
+a swig and wiped his mouth on his sleeve. He held the bottle in front of
+Jovius with a nod to say “Now you.”
+
+Jovius noticed that, in taking the bottle, the man had released Jovius'
+shoulder. He could run if he wanted. Dead eyes waited for him to take
+the bottle. Or to run. Dead eyes didn't care what Jovius did.
+
+Jovius drank.
+
+“It's a pretty spot, you think?” said Dead Eyes at last.
+
+“Look, man, if you want to be alone, I can...”
+
+“Pretty pond. Pretty trees.”
+
+“Yeah, I guess. There going to be dead in a month,” said the part of
+Jovius that deliberately said things to get him into trouble. The man,
+however, only nodded and stared at the pond.
+
+Jovius offered him the bottle back after a while. The man looked at it
+as if trying to identify a new insect, then took it and drank.
+
+“Rough day?” said Jovius. Dead eyes looked directly at Jovius for
+the second time. Now Jovius was the insect. The wind seemed to stop in
+the trees for a moment. The grass grew a millimeter back into the soil.
+Then the moment broke and the man laughed out loud. Then he laughed
+harder until Jovius could hear the echo from the monuments on the far
+side of the pond.
+
+“Hey, look, ssh!” said Jovius. “The caretaker!”
+
+“Fuck him!” said the man. “Fuck him for ——” Jovius didn't
+quite catch what the man said next, but it didn't matter.
+
+“The caretaker!” said Jovius again, pointing to the black sedan that
+was winding its way among the cemetery roads.
+
+“Oh fuck!” said the man, “what do we do?”
+
+“Well you, you're *supposed* to be here...”
+
+The man looked into Jovius' eyes for a third time and the look said
+he was not going to laugh this time. The look said that he could kill
+Jovius for suggesting that he was supposed to be in the cemetery that
+day.
+
+“Come on,” said Jovius. He scooped up his guitar and backpack and
+darted behind the monument. The man scooped up Jovius' blanket and
+folowed.
+
+The caretaker had seen them and chased.  The man and Jovius ran from
+monument to monument.  They forced the caretaker to get out of the
+car with his flashlight and follow them on foot.  They gave him a merry
+chase and wound up on the far side of the cemetery.  Jovius spotted a
+small chapel with a small stone bench built into one wall.  He used this
+as a step and vaulted up onto its tiled roof.  The man followed swiftly
+and Jovius caught the man's hand to help him up.  They got far enough
+back on the roof that when the caretaker came around the corner of the
+road, they were hidden from view.  The caretaker swept his flashlight
+back and forth through the gloom and paced carefully around the chapel
+and nearby monuments.  When he was out of site, Jovius glanced at the
+man and was surprised to see those eyes scrunched up in a smile.  Small
+lines radiated like sun rays from the folds below.  He looked as if
+he were about to laugh.  Jovius put a hand over the man's mouth because
+the caretaker was coming back around the other side of the chapel.
+
+After pacing back and forth for a while more, the caretaker finally
+gave up and went back to his car.
+
+Jovius took his hand from the man's mouth.  The man was still smiling,
+but didn't look as if he would laugh without warning.
+
+“Demos,” said the man, “Ioannou.”
+
+Jovius wasn't sure what name to give.  He didn't feel like either 
+Jovius or Martin today.  So he said “Hey.”
+
+They found a pair of chimneys on opposite sides of the roof and
+each claimed one as his own, wedging their bodies on the upper
+edge.  Demos tossed Jovius his blanket, while he took his black cashmere
+coat off and used that as a blanket.
+
+Jovius pretended to sleep while he watched the shadow of the strange
+man in the night as he, in turn, pretended to sleep.
