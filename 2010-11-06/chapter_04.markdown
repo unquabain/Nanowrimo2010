@@ -73,4 +73,4 @@ pale girl, but pretty.
 “Thank you, my lady,” said Jovius, striding inside.  “And how shall I address this
 vision of vision of budding feminine youth and innocence?”
 
-“My name is Penny,” said Penny, “Penny Cold.”
+“My name is Penny,” said Penny, “Penny Bart.”
