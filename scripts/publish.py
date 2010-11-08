@@ -100,14 +100,14 @@ for i, row in enumerate(files):
 	mkfile, htfile = row
 	mkstream = open(mkfile,'r', encoding='utf-8')
 	htstream = open(htfile,'w', encoding='utf-8')
-	if (i-1) in files:
+	if (i-1) >= 0:
 		prevmkfile, prevhtfile = files[i-1]
 		prev_link = os.path.basename(prevhtfile)
 		prev_text = prev_link[:-5]
 	else:
 		prev_link = "#"
 		prev_text = "THE BEGINNING"
-	if (i+1) in files:
+	if (i+1) < len(files):
 		nextmkfile, nexthtfile = files[i+1]
 		next_link = os.path.basename(nexthtfile)
 		next_text = next_link[:-5]
