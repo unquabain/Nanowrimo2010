@@ -83,55 +83,47 @@ published_dir = os.path.join(os.getcwd(),'published')
 if not os.path.exists(published_dir):
 	os.mkdir(published_dir)
 
-prev_title = "BEGINNING"
-prev_link = "#"
-last_title = ""
-last_content = ""
-last_file = None
-last_filename = ""
-for path, dirs, files in os.walk(os.getcwd()):
-	files.sort()
-	
-	for fname in files:
-		m = re.match('chapter_(\d\d).markdown',fname)
+
+files = []
+
+for d in sorted(os.listdir(os.getcwd())):
+	dpath = os.path.join(os.getcwd(),d)
+	if not os.path.isdir(d): continue
+	if not re.match('2010-11-\d\d',d): continue
+	for f in sorted(os.listdir(dpath)):
+		m = re.match('chapter_(\d\d).markdown',f)
 		if not m: continue
-		chapnum = int(m.group(1))
-		chapname = "%s - %02d"%(os.path.basename(path), chapnum)
-		chapfname = "%s.%02d.html"%(os.path.basename(path),chapnum)
-		if last_file:
-			last_file.write(template%{
-				'title' : last_title,
-				'body'  : last_content,
-				'nexttext' : chapname,
-				'nextlink' : chapfname,
-				'prevtext' : prev_title,
-				'prevlink' : prev_link
-				}
-			)
-			last_file.close()
-			subprocess.Popen('git add %s'%last_filename,shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr).wait()
+		pubfilename = os.path.join(published_dir, '%s.%02d.html'%(d,int( m.group(1))) )
+		files.append( (os.path.join(dpath, f), pubfilename) )
 
-		prev_title = last_title
-		prev_link = os.path.basename(last_filename)
-		last_title = chapname
-		last_filename = os.path.join(published_dir,chapfname)
-		last_file = open(last_filename,'w',encoding='utf-8')
-		with open(os.path.join(path,fname),'r',encoding='utf-8') as mdfile:
-			mdcontent = mdfile.read()
-			if mdcontent[0] == u'\uFEFF': mdcontent = mdcontent[1:]
-			last_content = markdown(mdcontent)
-
-				
-			
-last_file.write(template%{
-	'title' : last_title,
-	'body'  : last_content,
-	'nexttext' : "END",
-	'nextlink' : "#",
-	'prevtext' : prev_title,
-	'prevlink' : prev_link
-	}
-)
-last_file.close()
-subprocess.Popen('git add %s'%last_filename,shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr).wait()
+for i, row in enumerate(files):
+	mkfile, htfile = row
+	mkstream = open(mkfile,'r', encoding='utf-8')
+	htstream = open(htfile,'w', encoding='utf-8')
+	if (i-1) in files:
+		prevmkfile, prevhtfile = files[i-1]
+		prev_link = os.path.basename(prevhtfile)
+		prev_text = prev_link[:-5]
+	else:
+		prev_link = "#"
+		prev_text = "THE BEGINNING"
+	if (i+1) in files:
+		nextmkfile, nexthtfile = files[i+1]
+		next_link = os.path.basename(nexthtfile)
+		next_text = next_link[:-5]
+	else:
+		next_link = "#"
+		next_text = "THE END"
+	htstream.write(template%{
+		'title' : os.path.basename(htfile),
+		'body'  : markdown(mkstream.read()),
+		'nexttext' : next_text,
+		'nextlink' : next_link,
+		'prevtext' : prev_text,
+		'prevlink' : prev_link
+		}
+	)
+	htstream.close()
+	mkstream.close()
+	subprocess.Popen('git add %s'%htfile,shell=True,stdin=sys.stdin,stdout=sys.stdout,stderr=sys.stderr).wait()
 			

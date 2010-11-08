@@ -1,4 +1,4 @@
-﻿# Chapter 2010-11-01 - 1
+# Chapter 2010-11-01 - 1
 ## Penny saw the wind
 
 Just out of town, at the end of a windy road overgrown
