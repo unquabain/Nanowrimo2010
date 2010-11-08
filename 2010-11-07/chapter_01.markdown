@@ -74,7 +74,10 @@ throat.  Her spasming and coughing turned into steady, rhythmic sucking in cold 
 her nose and pushing it back out her mouth.  The rhythm and the cold were soothing.  In a brief
 while, she realized that she was *breathing* the water.  She could feel it flow through her
 nostrils, feel it thick and cold in her throat and chest.  It didn't move as quickly as air,
-she had to breathe more slowly, more patiently, and that was calming, too.
+she had to breathe more slowly, more patiently, and that was calming, too.  The water filled
+her lungs as air never had.  She could feel it in her lungs, making them turgid, solid.  When
+she breathed the water in, her lungs grew into solid organs with weight, not the insubstantial
+dry sponges she had always imagined them to be when these attacks had stricken her before.
 
 Sonja opened her eyes and saw the bottom of the clear stream.  Moss waved on the rocks like
 grass in a breeze and where a rock burst the mirrored, turbulent surface, jewel-bright bubbles
