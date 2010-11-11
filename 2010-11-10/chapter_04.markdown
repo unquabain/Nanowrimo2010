@@ -1,13 +1,13 @@
 # Chapter 2010-11-10 - 4
 
-That wicked Puck, the killer struck:
-The two-fold deed was done.
-Although in death, when life and breath
-And warming touch have gone,
-There still remains a font of pains
-For Love has lingered on,
-In darkened nooks and sonnet books
-In Nowhere, Oregon.
+That wicked Puck, the killer struck:  
+The two-fold deed was done.  
+Although in death, when life and breath  
+And warming touch have gone,  
+There still remains a font of pains  
+For Love has lingered on,  
+In darkened nooks and sonnet books  
+In Nowhere, Oregon.  
 
 Whatever his name was, thought the tramp, it was not fucking John Keats.
 
