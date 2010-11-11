@@ -29,7 +29,7 @@ wore flowing robes of no color and no shadow but—God!—what
 lustre! Dress-like trousers and a robe-like smock.  A black
 mask to cover his eyes, and that was a courtesy because you
 cannot look the wind in the eyes and remain sane.  The wind
-stood before Penny as a Scaramouche and held out his gloved
+stood before Penny as a Pulcinella and held out his gloved
 hand for her to take.  Penny said “no” again and the wind
 cocked his head, once more puppy-like, and held his hand
 a little further out.  Penny said “yes” and took his hand.
