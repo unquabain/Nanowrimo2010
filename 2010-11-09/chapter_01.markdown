@@ -66,3 +66,50 @@ sea in the center of the world.
 He slipped a little on the railing and had to catch himself.  Too close.  Too close
 to falling into the black water.  No, he was not ready for that yet.  Then why had
 he come?
+
+Frogs.
+
+Why had he thought of frogs?
+
+A riple in the reflection of the town lights caught his eye.  It was moving toward
+him along the river.  At first it seemed to be moving slowly, but that was a trick
+of the dark and the distance.  It raced up to Demos' bridge and a burst of wind
+struck him, surrounded him, nearly made him slip from the wet iron railing. 
+
+Demos climbed back over the railing onto the bridge as the suddenly stormy air whipped
+his pajama pants around his cold legs.  He was suddenly struck at how foolishly he
+was dressed.
+
+Frogs.
+
+There in the grass by the bank, something moved.  It looked like a frog, but it
+must have been a giant frog for him to see it from the middle of the bridge.  He
+could only just make out its outline in the dim shape in the chance reflection
+of a distant light. Slick and slimy, it breathed
+in that deep way that frogs do when they croak, but Demos heard nothing.  It couldn't
+be a frog.  His eyes were fooling him.  It was the size of a man.  Maybe it was a man.
+
+Demos ran from the bridge and down onto the bank.  Waded through the tall grass and
+soaked his sandles.  He wasn't quite sure why he was so determined to catch this giant
+frog that was as large as he was.  But on he ran.
+
+When he got to the place where the frog had been, it was gone.  It was too dark to
+see footprints.  In fact, it was too dark to see his own feet.  There was nothing
+but tall grass and the water.
+
+Feeling a bit deflated, Demos decided that, whatever he had seen, he had gained nothing
+by chasing it.  It was then that he tripped over the foot and landed on the man's chest.
+
+The man was sleeping, face-up, in the mud and the tall grass.  Demos fell nose-to-nose
+with him.  And that is why he was able to tell that, though the man was warm, he was not
+breathing.  Not, in fact, sleeping.
+
+Demos knew more than most people about the respiratory system and performed CPR on the
+man, but no amount of inflating of the lungs or pounding of the heart had an effect.
+This man was dead.  And very recently dead.  Demos had probably seen him die from there
+on the bridge.
+
+Perhaps that is why he ran.
+
+When finally Demos gave up the CPR, he sat back on his haunches and thought *well, that
+makes two.*
