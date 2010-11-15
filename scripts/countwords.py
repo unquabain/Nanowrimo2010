@@ -55,11 +55,11 @@ print "total\t\t%d"%sum
 percent = (100.0 * (float(sum)/target))
 print "You are %02.2f%% of where you need to be."%percent
 if sum > target:
-	dt = sum / rate
+	dt = timedelta(seconds =sum / rate )
 	writeby= dstart + dt
-	print "You will be behind if you don't write by %s"%(writeby.isoformat())
+	print "You will be behind if you don't write by %s"%(str(writeby))
 else:
-	print "You need to write %d words to catch up"%(target-sum)
+	print "You need to write %d words to catch up."%(target-sum)
 
 
 with open('README.markdown','r') as md:
