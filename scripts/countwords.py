@@ -42,6 +42,7 @@ sum = 0
 for path, dirs, files in os.walk(os.getcwd()):
 	if not re.search('/2010-11-\d\d$',path): continue
 	for f in files:
+		if not re.match('^chapter_\d\d.markdown$',f): continue
 		fpath = os.path.join(path,f)
 		with open(fpath,'r',encoding="utf-8") as ff:
 			md = ff.read()
@@ -53,10 +54,12 @@ for path, dirs, files in os.walk(os.getcwd()):
 print "total\t\t%d"%sum
 percent = (100.0 * (float(sum)/target))
 print "You are %02.2f%% of where you need to be."%percent
-#if sum > target:
-#	dt = sum / rate
-#	writeby= dstart + dt
-#	print "You will be behind if you don't write by %s"%(writeby.isoformat())
+if sum > target:
+	dt = sum / rate
+	writeby= dstart + dt
+	print "You will be behind if you don't write by %s"%(writeby.isoformat())
+else:
+	print "You need to write %d words to catch up"%(target-sum)
 
 
 with open('README.markdown','r') as md:
