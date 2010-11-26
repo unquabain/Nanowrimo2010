@@ -5,7 +5,7 @@ This is my NaNoWriMo for 2010.
 I am going to write it in Markdown this year instead of in LaTeX and see
 how that goes.
 
-Latest wordcount: 41537 (99.94% @ 2010-11-25T22:28:31.436926)
+Latest wordcount: 41852 (100.65% @ 2010-11-25T22:47:38.698124)
 
 ## How to read it.
 
