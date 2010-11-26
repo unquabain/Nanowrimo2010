@@ -139,7 +139,7 @@ her heart burst in her chest because she knew what she had done.
 He reached out and cupped her cheek and one bright tear dropped from
 his eye and landed on the bedsheet.
 
-“I will love you still, from the North of the Sky,” he said.  And then
+“I will love you still, from North of the Sky,” he said.  And then
 the light dwindled and coalesced into spots, which shrank and receded
 until Sonja realized that she was looking at the stars in the night sky.
 
