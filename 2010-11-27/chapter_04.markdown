@@ -35,4 +35,4 @@ a bear! It was called *Ursa minor,* the little dipper!  He was looking at the sk
 could hear the crunch of gravel under his feet.  He could smell the scent of conifer trees.
 He could feel the wind on his cheek.  He knew where he was!
 
-That was when Sonja bit him on the neck.
+That was when Sonja bit him on the neck and the stars went out.
